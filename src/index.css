@@ -33,3 +33,28 @@ main {
     background-color: rgba(242, 242, 242, 0.75);
     padding: 1rem;
 }
+
+h2 {
+    font-family: "Agbalumo", 'Times New Roman', Times, serif;
+    color: var(--soft-dark);
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    h2 {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+}

@@ -7,7 +7,7 @@ function App() {
     <>
       <Header pagetitle={"Kajsas bibliotek"} />
       <main>
-
+        <h2>Böcker</h2>
       </main>
       <Footer />
     </>
