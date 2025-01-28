@@ -1,0 +1,24 @@
+footer {
+    background-color: var(--pink);
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 0.825rem;
+    text-align: center;
+    margin: 0;
+}
+
+footer a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+footer a:visited {
+    color: var(--dark);
+}
+
+footer a:hover {
+    color: var(--coral);
+}

@@ -1,13 +1,15 @@
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
   return (
     <>
-     <Header pagetitle={"Kajsas bibliotek"}/>
-     <main>
+      <Header pagetitle={"Kajsas bibliotek"} />
+      <main>
 
-     </main>
+      </main>
+      <Footer />
     </>
   )
 }
